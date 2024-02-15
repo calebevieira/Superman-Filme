@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+.topo {
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.topo div {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo span {
+    margin: 0 30px;
+}
+
+.topo a {
+    color: #4710c1 ;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.img-capa {
+    width: 100%;
+}
+
+.secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.secao p {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px 0 ;
+}
+
+.secao img {
+    width: 100%;
+    border-radius: 4%;
+}
+
+.galeria img{
+    transition: 0.5s ease-in;
+    filter: grayscale(100%);
+}
+
+.galeria img:hover{
+    filter: grayscale(0%);
+}
+.imagem-sombra.expandida {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 9999;
+}
+
+.secao a {
+    color: blue;
+    font-weight: bold;
+}
+
+.galeria {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+
+.galeria img {
+    width: 315px;
+    margin: 10px;
+}
+
+.galeria::-webkit-scrollbar {
+    height: 15px;
+}
+
+
+.galeria::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+.galeria::-webkit-scrollbar-thumb {
+    background: #a3a3a3;
+    border-radius: 50px
+}
+
+
+.galeria::-webkit-scrollbar-thumb:hover {
+    background: #4710c1;
+}
+
+.imagem-sombra {
+    box-shadow: 10px 10px 10px #6a7b8d;
+}
+
+.informacao {
+    margin: 15px auto;
+}
+
+.rodape {
+    width: 100%;
+    background: #4710c1;
+    padding: 10px 0;
+}
+.rodape p{
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
